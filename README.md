@@ -6,9 +6,16 @@ First you need to run this command in front folder directory :
 npm install
 ```
  
-Then you need to run :
+Then you need to run in back direction :
 
 ```bash
-docker-compose build && docker-compose up -d
+python main.py
 ```
 
+In front direction :
+
+```bash
+npm start
+```
+
+In the future, project will contain docker-compose file to run the app automatically.
